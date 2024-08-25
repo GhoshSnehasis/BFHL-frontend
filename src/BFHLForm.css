@@ -1,0 +1,71 @@
+/* src/BFHLForm.css */
+
+/* Body styles */
+body {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Container and card styles */
+.container {
+  max-width: 600px;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form and button styles */
+.form-group label {
+  font-weight: bold;
+}
+
+textarea {
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-primary {
+  background-color: #6e8efb;
+  border-color: #6e8efb;
+}
+
+.btn-primary:hover {
+  background-color: #a777e3;
+  border-color: #a777e3;
+}
+
+/* Alert styles */
+.alert {
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.alert pre {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Dropdown styles */
+.react-select-container {
+  margin-bottom: 1.5rem;
+}
+
+.react-select__control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.react-select__control--is-focused {
+  box-shadow: 0 0 0 0.2rem rgba(110, 142, 251, 0.25);
+}
